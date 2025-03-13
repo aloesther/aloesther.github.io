@@ -1,0 +1,61 @@
+---
+layout: default
+title: "Home"
+---
+
+<header>
+    <h1>Hi, I'm Esther Alo </h1>
+    <p>Data Scientist | Business Analyst</p>
+</header>
+
+<section id=\"about\">
+    <h2>About Me</h2>
+    <p>I am a Data Scientist who loves to apply knowledge to uncover solutions hidden in data, to take on business challenges and goals, solve complex problems and create strategies to improve results and performance.</p>
+</section>
+
+<section id=\"skills\">
+    <h2>Skills & Tools</h2>
+    <ul>
+        <li>Python | R | SQL | Pandas | NumPy</li>
+        <li>Machine Learning: Scikit-learn, TensorFlow, PyTorch</li>
+        <li>Data Visualization: Matplotlib, Seaborn, Tableau</li>
+        <li>Big Data: Spark, Google Cloud, AWS</li>
+    </ul>
+</section>
+
+<section id=\"projects\">
+    <h2>My Projects</h2>
+    <div class=\"project\">\n
+        <h3><a href=\"https://github.com/aloesther/Principal-Component-Analysis-on-Bitcoin---Final-Year-Project">Bitcoin Price Prediction</a></h3>\n
+        <p> Application of Principal Component Analysis (PCA) for dimensionality reduction in cryptocurrency datasets, specifically focusing on Bitcoin (BTC)..</p>\n
+    </div>\n
+    <div class=\"project\">\n
+        <h3><a href=\"https://github.com/aloesther/-Consumer-Insights-Data-Analytics-of-Beats-by-Dre">Sentiment Analysis</a></h3>\n
+        <p>Insights into consumer sentiment for Beats by Dre, offering data-driven recommendations to enhance product development and marketing, ultimately strengthening brand loyalty and competitiveness..</p>\n
+       </div>\n
+    <div class=\"project\">\n
+        <h3><a href=\" https://github.com/aloesther/IWD-2025">International Womwns Day'25</a></h3>\n
+        <p>This Project showcases the contributions of women in STEM fields, with a special focus on African and Nigerian innovators..</p>\n
+    </div>\n
+   
+</section>
+
+<section id=\"blog\">
+    <h2>Blog Posts</h2>\n
+    <ul>\n
+        {% for post in site.posts limit:3 %}\n
+            <li><a href=\"{{ https://medium.com/@estheralo13 }}\">{{Medium Posts }}</a> - {{ post.date | date_to_string }}</li>\n
+        {% endfor %}\n
+    </ul>\n
+    <p><a href=\"/blog\">Read More →</a></p>\n
+</section>\n
+
+<section id=\"contact\">\n
+    <h2>Contact Me</h2>\n
+    <p>📧 Email: <a href=\"mailto:estheralo13@gmail.com">estheralo13@gmail.com</a></p>\n
+    <p>🔗 <a href=\"https://www.linkedin.com/in/esther-alo-756a2b1ba/">LinkedIn</a> | <a href=\'https://github.com/aloesther">GitHub</a></p>\n
+</section>\n
+
+<footer>\n
+    <p>🚀 Powered by Jekyll & GitHub Pages</p>\n
+</footer>\n
