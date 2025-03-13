@@ -1,6 +1,7 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal
+title: "Your Name's Portfolio"
+description: "Data Scientist | Machine Learning | AI"
+author: "Your Name"
+github_username: your-username
+linkedin: "your-linkedin-profile"
+email: "your-email@example.com"
+theme: minima  # Change if using a different theme
