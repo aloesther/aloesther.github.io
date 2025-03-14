@@ -1,20 +1,23 @@
+/* Apply a gradient background */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #2C3E50, #4CA1AF);
-    color: #fff;
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: #ffffff;
     text-align: center;
 }
 
+/* Style the header */
 header {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bold;
     color: #FFD700;
 }
 
+/* Section styling */
 section {
     margin: 40px auto;
     padding: 30px;
@@ -25,10 +28,14 @@ section {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
 }
 
+/* Headings */
 h2 {
     color: #FFD700;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
+/* Project styling */
 .project {
     background: rgba(0, 0, 0, 0.4);
     margin: 10px 0;
@@ -42,6 +49,7 @@ h2 {
     transform: scale(1.05);
 }
 
+/* Links */
 a {
     color: #FFD700;
     text-decoration: none;
@@ -53,6 +61,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
